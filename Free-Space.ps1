@@ -10,9 +10,9 @@ Get Free Persentage on Drives(remote or local)
   . ./Free-Space #load Function
   
   FreeSpace (enter)
+  FreeSpace -Computername localhost
 
-
- foreach ($computer in cat C:\batch\servers.txt) {freespace "$computer"}  #Not yet Tested
+ foreach ($computer in cat C:\BachtServersList.txt) {freespace "$computer"}  #Not Tested
 #>
 
 
